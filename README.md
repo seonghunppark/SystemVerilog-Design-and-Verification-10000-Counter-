@@ -42,7 +42,7 @@
 
 ### 🔹 TASK(맡은 역할)
 
---
+
 
 ##🔸 설계 (**Design)**
 
@@ -68,16 +68,12 @@
 
 ## 🔹주요 성과 및 배운 점 (Outcome & Lessons Learned)
 
----
-
 1. UART RX feature Verification
 2. FIFO Full & Empty Verification
 3. UART TX feature Verification
 4. UART TOP feature Verification 
 5. 10,000 Counter feature Simulation 
 
-### 관련 멤버
-
----
+## 관련 멤버
 
 - 김철종 [UART TOP, RX Verification and Counter Simulation]
