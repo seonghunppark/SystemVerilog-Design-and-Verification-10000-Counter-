@@ -72,6 +72,18 @@ PPT link : [PPT 바로보기](https://www.canva.com/design/DAGyvS3EGzo/xglLc3FiX
 4. UART TOP feature Verification 
 5. 10,000 Counter feature Simulation 
 
+**[검증의 체계화: UVM 구조를 이용한 검증]**
+
+**1. 체계적 검증의 필요성 인식**
+FPGA 기반의 RISC-V CPU 설계 및 센서 제어 프로젝트를 수행하며, 설계 복잡도가 증가함에 따라 기존의 단순 테스트벤치 방식으로는 모든 코너 케이스(Corner Case)를 커버하기 어렵다는 한계를 느꼈습니다. 특히, 모듈 간의 인터페이스 오류를 사전에 차단하기 위해 **검증 환경의 재사용성과 독립성**이 핵심임을 깨달았습니다.
+
+**2. UVM 유사 구조의 검증 환경 구축**
+이를 해결하기 위해 검증 환경을 **Driver, Monitor, Scoreboard**와 유사한 역할로 분리하여 체계화했습니다.
+
+- **데이터 생성 및 주입(Generator & Driver):** 시나리오를 바탕으로 다양한 테스트 벡터를 전송했습니다.
+- **모니터링(Monitor):** 설계 내부의 신호를 실시간으로 관찰하고 로그를 기록하여 데이터의 흐름을 추적했습니다.
+- **결과 비교 및 분석(Scoreboard):** Python을 활용해 도출한 이론적 기댓값과 실제 시뮬레이션 결과값을 실시간으로 비교 분석하는 자동화 로직을 구현했습니다.
+
 ## 관련 멤버
 
 - 김철종 [UART TOP, RX Verification and Counter Simulation]
