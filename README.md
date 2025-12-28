@@ -42,7 +42,7 @@
 
 ### 🔹 TASK(맡은 역할)
 
--
+--
 
 ##🔸 설계 (**Design)**
 
@@ -60,7 +60,7 @@
 
 ### 🔹System Architecture
 
----
+
 
 🔸System Level Block Diagram
 
