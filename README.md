@@ -2,6 +2,8 @@
 미니프로젝트 : SystemVerilog를 이용하여 10,000 Counter 설계 및 검증
 
 
+PPT link : [PPT 바로보기](https://www.canva.com/design/DAGyvS3EGzo/xglLc3FiXX4jeBjt4sGhaQ/view?utm_content=DAGyvS3EGzo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb298409a0d)
+
 
 ## 🔹프로젝트 개요
 
