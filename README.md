@@ -44,7 +44,7 @@
 
 
 
-##🔸 설계 (**Design)**
+**🔸 설계 (Design)**
 
 - **UART RX/TX : Start/Data/Stop 비트를 포함한 직렬 통신 로직 구현**
 - **FIFO : Register File을 설계하여 FIFO(First in - First out) 데이터 버퍼링 기능 구현**
