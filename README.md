@@ -60,10 +60,6 @@
 
 ### 🔹System Architecture
 
-
-
-🔸System Level Block Diagram
-
 ![counter_top_blockdiagram.jpg](https://github.com/seonghunppark/SystemVerilog-Design-and-Verification-10000-Counter-/blob/f47c453825b62bf56580ae50dce4bd8033951a0c/counter_top_blockdiagram.jpg)
 
 ## 🔹주요 성과 및 배운 점 (Outcome & Lessons Learned)
