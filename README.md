@@ -31,7 +31,7 @@
 - **FND Controller**
 - **Data Path**
 
----
+
 
 ### 🔹검증 환경 (Verification Environment)
 
@@ -42,7 +42,7 @@
 
 ### 🔹 TASK(맡은 역할)
 
----
+-
 
 ##🔸 설계 (**Design)**
 
