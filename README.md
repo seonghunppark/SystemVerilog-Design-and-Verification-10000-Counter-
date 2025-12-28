@@ -64,7 +64,7 @@
 
 🔸System Level Block Diagram
 
-![counter_top_blockdiagram.jpg](attachment:d3c03da3-0a0c-40ca-ac6b-618cf4fdcb33:counter_top_blockdiagram.jpg)
+![counter_top_blockdiagram.jpg](https://github.com/seonghunppark/SystemVerilog-Design-and-Verification-10000-Counter-/blob/f47c453825b62bf56580ae50dce4bd8033951a0c/counter_top_blockdiagram.jpg)
 
 ## 🔹주요 성과 및 배운 점 (Outcome & Lessons Learned)
 
