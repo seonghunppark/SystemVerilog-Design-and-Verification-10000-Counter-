@@ -6,11 +6,11 @@
 ## 🔹프로젝트 개요
 
 
- Verilog HDL만으로는 복잡한 SoC 내부 모듈들의 상호작용을 검증하기 어렵기 때문에 버그를 조기에, 효율적으로 찾아내기 위해서는 SystemVerilog와 같은 검증언어의 중요성이 커지고 있습니다.
+- Verilog HDL만으로는 복잡한 SoC 내부 모듈들의 상호작용을 검증하기 어렵기 때문에 버그를 조기에, 효율적으로 찾아내기 위해서는 SystemVerilog와 같은 검증언어의 중요성이 커지고 있습니다.
 
- 본 프로젝트는 10,000 Counter와 UART, FIFO, Counter 모듈을 통합 설계하고 재사용성과 확장성이 뛰어난 **SystemVerilog의 객체지향(OOP)기반 Testbench 환경**을 구축하여 검증 효율을 극대화하는 것을 목표로 했습니다.
+- 본 프로젝트는 10,000 Counter와 UART, FIFO, Counter 모듈을 통합 설계하고 재사용성과 확장성이 뛰어난 **SystemVerilog의 객체지향(OOP)기반 Testbench 환경**을 구축하여 검증 효율을 극대화하는 것을 목표로 했습니다.
 
-이를 위해 랜덤 데이터 생성(Randomization), 클래스 기반의 검증 환경(Generator, Driver, Monitor, Scoreboard) 그리고 모듈간의 동기화를 위한 Mailbox 통신을 이용한 검증 기법을 적용했습니다. 
+- 이를 위해 랜덤 데이터 생성(Randomization), 클래스 기반의 검증 환경(Generator, Driver, Monitor, Scoreboard) 그리고 모듈간의 동기화를 위한 Mailbox 통신을 이용한 검증 기법을 적용했습니다. 
 
 ## 🔹프로젝트 목표
 
